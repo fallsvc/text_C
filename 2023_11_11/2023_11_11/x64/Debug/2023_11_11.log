@@ -1,0 +1,3 @@
+﻿  .c
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_11\2023_11_11\.c(242,10): error C2057: 应输入常量表达式
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_11\2023_11_11\.c(242,11): error C2466: 不能分配常量大小为 0 的数组
