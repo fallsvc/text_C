@@ -1,0 +1,8 @@
+﻿  .c
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(220,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(220,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(221,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(221,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(222,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\2023_11_13\.c(222,9): message : 请考虑在格式字符串中使用“%zd”
+  2023_11_13.vcxproj -> C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_11_13\x64\Debug\2023_11_13.exe
