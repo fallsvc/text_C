@@ -19,34 +19,34 @@
 //	printf("%d", arr[0]);
 //	return 0;
 //}
-#define _CRT_SECURE_NO_WARNINGS 1
-#include <stdio.h>
-//1.
-int main() {
-    int i = 0;
-    int n = 0;
-    int arr[5] = { 0 };
-
-    printf("请输入一个五位数: ");
-    scanf("%d", &n);
-
-    if (n < 10000 || n > 99999) {
-        printf("输入不是五位数。\n");
-        return 1;
-    }
-
-    for (i = 0; i < 5; i++) {
-        arr[i] = n % 10;
-        n = n / 10;
-    }
-
-    for (i = 4; i > 0; i--) {
-        printf("%d-", arr[i]);
-    }
-    printf("%d\n", arr[0]);
-
-    return 0;
-}
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include <stdio.h>
+////1.
+//int main() {
+//    int i = 0;
+//    int n = 0;
+//    int arr[5] = { 0 };
+//
+//    printf("请输入一个五位数: ");
+//    scanf("%d", &n);
+//
+//    if (n < 10000 || n > 99999) {
+//        printf("输入不是五位数。\n");
+//        return 1;
+//    }
+//
+//    for (i = 0; i < 5; i++) {
+//        arr[i] = n % 10;
+//        n = n / 10;
+//    }
+//
+//    for (i = 4; i > 0; i--) {
+//        printf("%d-", arr[i]);
+//    }
+//    printf("%d\n", arr[0]);
+//
+//    return 0;
+//}
 //2.
 //int main()
 //{
