@@ -1,0 +1,30 @@
+﻿  .c
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(117,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(117,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(118,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(118,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(119,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(119,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(120,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(120,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(121,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(121,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(122,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(122,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(123,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(123,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(125,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(125,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(126,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(126,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(129,24): warning C4047: “函数”:“const char *”与“char **”的间接级别不同
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(129,24): warning C4024: “strlen”: 形参和实参 1 的类型不同
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(129,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(129,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(130,27): warning C4047: “函数”:“const char *”与“char **”的间接级别不同
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(130,27): warning C4024: “strlen”: 形参和实参 1 的类型不同
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(130,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(130,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(131,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\2023_12_12\.c(131,9): message : 请考虑在格式字符串中使用“%zd”
+  2023_12_12.vcxproj -> C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_12\x64\Debug\2023_12_12.exe
