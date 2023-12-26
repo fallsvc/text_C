@@ -16,16 +16,18 @@ void AddContact(Contact* pc)
 		return;
 	}
 	//
+	getchar();
 	printf("Input name:");
-	scanf("%s", pc->data[pc->count].name);
+	gets(pc->data[pc->count].name);
 	printf("Input age:");
 	scanf("%d", &(pc->data[pc->count].age));
+	getchar();
 	printf("Input sex:");
-	scanf("%s", pc->data[pc->count].sex);
+	gets(pc->data[pc->count].sex);
 	printf("Input tele:");
-	scanf("%s", pc->data[pc->count].tele);
+	gets(pc->data[pc->count].tele);
 	printf("Input address:");
-	scanf("%s", pc->data[pc->count].addr);
+	gets(pc->data[pc->count].addr);
 
 	pc->count++;
 	printf("Success!!!\n");
@@ -47,13 +49,13 @@ void Show(const Contact* pc)
 	}
 }
 
-static int FindByName(Contact* pc, char name[],char tele[])
+static int FindByTele(Contact* pc,char tele[])
 {
 	assert(pc);
 	int i = 0;
 	for (i = 0; i < pc->count; i++)
 	{
-		if (0==strcmp(name, pc->data[i].name)&&0==strcmp(tele,pc->data[i].tele))
+		if (0==strcmp(tele,pc->data[i].tele))
 			return i;
 	}
 	return -1;
@@ -62,18 +64,17 @@ static int FindByName(Contact* pc, char name[],char tele[])
 void Del(Contact* pc)
 {
 	assert(pc);
-	char name[Name_MAX] = { 0 };
 	char tele[Tele_MAX] = { 0 };
 	if (pc->count == 0)
 	{
 		printf("Empty!!!");
 		return;
 	}
-	printf("Input who do you want to delete and tele number(eg.zhnagsan 1450220):");
-	scanf("%s %s", name,tele);
+	printf("Input who do you want to delete tele number(eg.1450220):");
+	scanf("%s",tele);
 	//1.
 	//find
-	int pos = FindByName(pc, name,tele);
+	int pos = FindByTele(pc,tele);
 	if (pos == -1)
 	{
 		printf("Non-Exist\n");
@@ -93,18 +94,17 @@ void Del(Contact* pc)
 void Search(Contact* pc)
 {
 	assert(pc);
-	char name[Name_MAX] = { 0 };
 	char tele[Tele_MAX] = { 0 };
 	if (pc->count == 0)
 	{
 		printf("Empty!!!");
 		return;
 	}
-	printf("Input who do you want to search and tele number(eg.zhnagsan 1450220):");
-	scanf("%s %s", name, tele);
+	printf("Input who do you want to search tele number(eg.1450220):");
+	scanf("%s", tele);
 	//1.
 	//find
-	int pos = FindByName(pc, name, tele);
+	int pos = FindByTele(pc, tele);
 	if (pos == -1)
 	{
 		printf("Non-Exist\n");
@@ -123,18 +123,17 @@ void Search(Contact* pc)
 void Motify(Contact* pc)
 {
 	assert(pc);
-	char name[Name_MAX] = { 0 };
 	char tele[Tele_MAX] = { 0 };
 	if (pc->count == 0)
 	{
 		printf("Empty!!!");
 		return;
 	}
-	printf("Input who do you want to motify and tele number(eg.zhnagsan 1450220):");
-	scanf("%s %s", name, tele);
+	printf("Input who do you want to motify tele number(eg. 1450220):");
+	scanf("%s",tele);
 	//1.
 	//find
-	int pos = FindByName(pc, name, tele);
+	int pos = FindByTele(pc, tele);
 	if (pos == -1)
 	{
 		printf("Non-Exist\n");
@@ -142,16 +141,18 @@ void Motify(Contact* pc)
 	}
 	//2.
 	//motify
+	getchar();
 	printf("Input name:");
-	scanf("%s", pc->data[pos].name);
+	gets(pc->data[pos].name);
 	printf("Input age:");
 	scanf("%d", &(pc->data[pos].age));
+	getchar();
 	printf("Input sex:");
-	scanf("%s", pc->data[pos].sex);
+	gets(pc->data[pos].sex);
 	printf("Input tele:");
-	scanf("%s", pc->data[pos].tele);
+	gets(pc->data[pos].tele);
 	printf("Input address:");
-	scanf("%s", pc->data[pos].addr);
+	gets(pc->data[pos].addr);
 	printf("Success!!!\n");
 }
 //By name

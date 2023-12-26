@@ -1,0 +1,8 @@
+﻿  ADB.c
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_25_AddressBook\2023_12_25_AddressBook\ADB.c(21,2): warning C4013: “gets”未定义；假设外部返回 int
+  正在生成代码
+  5 of 17 functions (29.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  2023_12_25_AddressBook.vcxproj -> C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2023_12_25_AddressBook\Release\2023_12_25_AddressBook.exe
