@@ -1,0 +1,3 @@
+﻿  222023321262025 刘程 %f.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetPath(C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2024_3_31\x64\Debug\2024_3_31.exe) 与 Linker 的 OutputFile 属性值()不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+  2024_3_31.vcxproj -> C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2024_3_31\x64\Debug\2024_3_31.exe
