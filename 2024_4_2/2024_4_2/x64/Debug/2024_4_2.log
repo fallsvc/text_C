@@ -1,0 +1,4 @@
+﻿  Contact.c
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2024_4_2\2024_4_2\Contact.c(39,12): warning C4013: “strcmp”未定义；假设外部返回 int
+C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2024_4_2\2024_4_2\Contact.c(130,11): warning C4098: “SaveContact”:“void”函数返回值
+  2024_4_2.vcxproj -> C:\Users\12092\OneDrive\文档\Visual Studio 2022\VS code\c\2024_4_2\x64\Debug\2024_4_2.exe
